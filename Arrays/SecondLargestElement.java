@@ -2,7 +2,7 @@ package Arrays;
 
 public class SecondLargestElement {
     public static void main(String[] args) {
-        int[] arr = {12, 12}; 
+        int[] arr = {12,6,1,2,7}; 
         int secondLargest = secondLargestII(arr); 
         System.out.println(secondLargest);
     }

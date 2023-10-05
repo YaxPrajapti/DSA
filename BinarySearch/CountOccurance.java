@@ -4,7 +4,7 @@ public class CountOccurance {
     public static void main(String[] args) {
         int[] arr = {1, 1, 2, 2, 2, 2, 3};  
         int n = arr.length; 
-        int x = 4; 
+        int x = 2; 
         int count = count(arr, n, x); 
         System.out.println(count);
     }
