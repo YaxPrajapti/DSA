@@ -1,12 +1,10 @@
 package BinarySearch;
 
-import Arrays.sort2DArray;
-
 public class FirstAndLastOccurance {
     public static void main(String[] args) {
-        int[] arr = {1, 3, 5, 5, 5, 5, 67, 123, 125}; 
+        int[] arr = {1}; 
         int n = arr.length; 
-        int x = 5; 
+        int x = 1; 
         int[] ans = firstAndLastPos(arr, x); 
         System.out.println(ans[0]);
         System.out.println(ans[1]);
