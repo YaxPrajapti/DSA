@@ -9,6 +9,27 @@ public class PelindromPartitioning {
         List<List<String>> ans = partition(s); 
         System.out.println(ans);
     }
+    public static String longestPalindrom(String s){
+        int n = s.length(); 
+        StringBuilder st = new StringBuilder(); 
+        String ans = "";  
+        generate(st, n, s, 0, ans); 
+        return st.toString(); 
+    }
+    public static void generate(StringBuilder st, int n, String s, int index, String ans){
+        if(index == n){
+            if(st.length() > ans.length()){
+                ans = st.toString(); 
+            }
+            return; 
+        }
+        for(int i = index; i < n; i++){
+            if(isPalindrom(s, index, i)){
+                st
+            }
+        }
+    }
+    /*
     public static List<List<String>> partition(String s){
         List<List<String>> ans = new ArrayList<>(); 
         List<String> path = new ArrayList<>(); 
@@ -38,5 +59,6 @@ public class PelindromPartitioning {
         }
         return true; 
     }
+     */
     
 }
