@@ -5,7 +5,7 @@ import java.util.List;
 
 public class PelindromPartitioning {
     public static void main(String[] args) {
-        String s = "aab"; 
+        String s = "cbbd"; 
         List<List<String>> ans = partition(s); 
         System.out.println(ans);
     }
