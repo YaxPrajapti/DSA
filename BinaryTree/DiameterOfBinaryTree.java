@@ -1,6 +1,5 @@
 package BinaryTree;
 
-import apple.laf.JRSUIUtils.Tree;
 
 public class DiameterOfBinaryTree {
     static class TreeNode{
@@ -31,7 +30,7 @@ public class DiameterOfBinaryTree {
         int[] length = new int[1]; 
         if(root == null){
             return 0; 
-        }
+        }   
         height(root, length); 
         return length[0]; 
     }
